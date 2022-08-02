@@ -1,12 +1,12 @@
 body{
     background-color: #1F2937;
-    padding-left: 150px;
-    padding-right: 150px;
+    
 }
 header{
     position: relative;
     margin: auto;
-    
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
 }
 .header-part
@@ -16,7 +16,8 @@ header{
 }
 .landing-title{
     font-family: 'Times New Roman', Times, serif;
-    color: #ffff;
+    color: #f9faf8;
+    font-size: 24px;
     }
 nav{
     text-align: right;
@@ -28,6 +29,12 @@ nav{
     display: inline;
     padding-left: 15px;
     color: #ffff;
+    
+}
+
+a
+{
+    color: #f9faf8;
 }
 
 #main-section
@@ -36,21 +43,67 @@ nav{
     position: relative;
     display: flex;
     margin-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#intro-h
+{
+    font-size: 48px;
+    font-weight: extra bold;
+    color: #f9faf8;
 
 }
+
+#intro-p
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .self-intro{
     text-align:left;
     flex: 1 auto;
 }
-.
-#go-down
-{
+
+#go-down{
     background-color: #3882F6;
-    border: 0;
-    border-radius: 10px;
+    border: 5px;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    color: #f9faf8;
+    
 }
 .intro-logo{
     width: 250px;
     height:250px;
     flex:  1 auto;
+}
+hr{ position:relative;
+margin-top: 150px; }
+
+#photo-section{
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    background-color: #ffff;
+    color: #1f2937;
+    display: flex;
+    
+}
+
+.photo-h{
+    font-size: 36px;
+    font-weight: extra bold;
+    text-align: center;
+}
+
+.photo-random{
+    display: contents;
+    border: 5px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    flex: 1 auto;
 }
