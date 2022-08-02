@@ -1,0 +1,56 @@
+body{
+    background-color: #1F2937;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+header{
+    position: relative;
+    margin: auto;
+    
+    display: flex;
+}
+.header-part
+{
+    padding: 5px;
+    flex: 1 1 auto;
+}
+.landing-title{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffff;
+    }
+nav{
+    text-align: right;
+    
+}
+.ol-item{ 
+    position:relative;
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+    color: #ffff;
+}
+
+#main-section
+{
+    color: #ffff;
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+
+}
+.self-intro{
+    text-align:left;
+    flex: 1 auto;
+}
+.
+#go-down
+{
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+}
+.intro-logo{
+    width: 250px;
+    height:250px;
+    flex:  1 auto;
+}
